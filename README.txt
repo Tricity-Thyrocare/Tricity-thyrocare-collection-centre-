@@ -1,21 +1,34 @@
-TRICITY THYROCARE COLLECTION CENTRE WEBSITE
+TRICITY THYROCARE COLLECTION CENTRE - PROFESSIONAL WEBSITE
 
-1. Upload index.html to the ROOT of your GitHub repository.
-2. In GitHub: Settings > Pages.
-3. For a simple static site, select "Deploy from a branch".
-4. Select Branch: main and Folder: / (root), then Save.
-5. Wait 1-3 minutes and open the Pages URL.
+Upload these files directly into your GitHub repository ROOT:
+1. index.html
+2. style.css
+3. script.js
+4. README.txt
 
-The website is mobile responsive and includes:
-- Professional diagnostic homepage
-- Package search, category filters and sorting
-- Add to cart with browser storage
+GitHub Pages:
+Settings -> Pages -> Deploy from a branch -> main -> /(root) -> Save.
+
+Features:
+- Premium responsive design
+- Package search and sorting
+- Cart with quantity +/-
+- Browser cart storage
 - Patient booking form
-- Date/time slot
+- Address + pincode
+- Date + time slot
 - Hard-copy report +₹75
-- Booking summary
-- WhatsApp booking
-- Call and WhatsApp buttons
-- Tricity Thyrocare Collection Centre branding
+- Booking ID
+- WhatsApp booking summary
+- Call/WhatsApp buttons
 
-Edit package names/prices inside index.html if needed.
+AUTOMATIC CUSTOMER SMS:
+A real SMS cannot be sent securely by GitHub Pages alone. You need an India-compatible SMS provider plus a small backend/serverless function and approved sender/template setup where required.
+
+Recommended flow:
+Customer books -> WhatsApp details reach centre -> centre confirms and assigns collector -> backend sends:
+"Tricity Thyrocare Collection Centre
+Your appointment is confirmed. [Collector Name] ([Collector Mobile]) will come for your appointment.
+Track appointment: [tracking link]"
+
+The frontend is prepared so this backend can be added next.
