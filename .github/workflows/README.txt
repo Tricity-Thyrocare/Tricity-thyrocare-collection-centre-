@@ -1,33 +1,18 @@
-# Tricity Thyrocare Collection Centre Website
+Tricity Thyrocare Collection Centre website
+==============================================
 
-## Included
-- Responsive Thyrocare-style professional design
-- Packages with uploaded images
-- Dynamic booking form
-- Date selection and time slots
-- Home Collection / Centre Visit
-- WhatsApp booking confirmation to 8178009011
-- Click-to-call
-- Instagram button: tricity_thyrocare_centre
-- Mobile menu
-- Offer popup
-- Easy package booking buttons
-
-## Important
-The Facebook Page URL was not available from the supplied details. Open `script.js` and replace:
-
-const FACEBOOK_URL = "";
-
-with the exact Facebook Page URL.
-
-## Upload to GitHub
-Upload these items to your repository:
+Files:
 - index.html
 - style.css
 - script.js
-- assets folder
+- assets/package-1.jpg ... package-5.jpg
+- assets/popup-offer.jpg
 
-Then enable GitHub Pages from Settings > Pages > Deploy from branch > main > / (root).
+The popup image is included locally, so it does not depend on an external image URL.
 
-## Real shared booking system
-This version sends booking details to WhatsApp. The selected slot is not stored on a central server. For a true multi-user live slot system (where one booked slot becomes unavailable to everyone), connect the form to Firebase, Supabase, Google Sheets/Apps Script, or a custom backend.
+To publish:
+1. Upload all files/folders to the GitHub Pages repository.
+2. Keep the assets folder beside index.html.
+3. Ensure GitHub Pages is enabled for the repository/branch.
+
+Phone: 8178009011
