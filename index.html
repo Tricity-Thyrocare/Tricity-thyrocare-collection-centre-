@@ -1,90 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tricity Thyrocare Collection Centre | Book Blood Tests</title>
-<meta name="description" content="Tricity Thyrocare Collection Centre - Blood tests, health packages and convenient home sample collection.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="header">
-  <div class="container nav">
-    <a class="brand" href="#"><span class="brand-mark">✚</span><span><b>TRICITY</b><small>THYROCARE COLLECTION CENTRE</small></span></a>
-    <nav><a href="#packages">Packages</a><a href="#how">How It Works</a><a href="#contact">Contact</a></nav>
-    <a class="call" href="tel:8178009011">☎ 8178009011</a>
-  </div>
-</header>
-
-<main>
-<section class="hero">
- <div class="container hero-grid">
-  <div class="hero-copy">
-   <div class="eyebrow"><span>●</span> Trusted Diagnostic Collection Centre</div>
-   <h1>Better health starts with <em>better testing.</em></h1>
-   <p>Book blood tests, health packages and convenient home sample collection in just a few clicks.</p>
-   <div class="hero-actions"><button class="btn primary" onclick="openBooking()">Book Your Test <span>→</span></button><a class="btn ghost" href="tel:8178009011">Call 8178009011</a></div>
-   <div class="trust-row"><span>✓ Home Collection</span><span>✓ Easy Booking</span><span>✓ Reliable Reports</span></div>
-  </div>
-  <div class="hero-art">
-   <div class="orb orb1"></div><div class="orb orb2"></div>
-   <div class="lab-card"><div class="tube">🧪</div><div><b>Health Check</b><small>Sample collection made easy</small></div><span class="check">✓</span></div>
-   <div class="hero-circle"><span>🩺</span><b>Complete<br>Health Care</b></div>
-   <div class="mini-card"><span>98%</span><small>Happy Patients</small></div>
-  </div>
- </div>
-</section>
-
-<section class="stats"><div class="container stats-grid"><div><b>100+</b><span>Tests Available</span></div><div><b>25+</b><span>Health Packages</span></div><div><b>7 Days</b><span>Booking Support</span></div><div><b>Home</b><span>Sample Collection</span></div></div></section>
-
-<section id="packages" class="section">
- <div class="container">
-  <div class="section-head"><div><span class="kicker">POPULAR PACKAGES</span><h2>Choose a package for your health</h2></div><button class="link-btn" onclick="openBooking()">View & Book →</button></div>
-  <div class="cards">
-   <article class="card c1"><div class="icon">🫀</div><span class="tag">MOST POPULAR</span><h3>Full Body Health Check</h3><p>CBC, LFT, KFT, Lipid Profile, Thyroid & more.</p><div class="price"><del>₹2,999</del><b>₹1,499</b></div><button onclick="selectPackage('Full Body Health Check')">Book Now →</button></article>
-   <article class="card c2"><div class="icon">🦋</div><span class="tag">THYROID</span><h3>Thyroid Profile</h3><p>Essential thyroid parameters for routine screening.</p><div class="price"><del>₹999</del><b>₹499</b></div><button onclick="selectPackage('Thyroid Profile')">Book Now →</button></article>
-   <article class="card c3"><div class="icon">💙</div><span class="tag">HEART CARE</span><h3>Heart Health Profile</h3><p>Lipid markers and important cardiovascular screening tests.</p><div class="price"><del>₹1,999</del><b>₹999</b></div><button onclick="selectPackage('Heart Health Profile')">Book Now →</button></article>
-   <article class="card c4"><div class="icon">🩸</div><span class="tag">WELLNESS</span><h3>Diabetes Care Profile</h3><p>HbA1c, glucose and supporting diabetes screening tests.</p><div class="price"><del>₹1,499</del><b>₹799</b></div><button onclick="selectPackage('Diabetes Care Profile')">Book Now →</button></article>
-  </div>
- </div>
-</section>
-
-<section id="how" class="how">
- <div class="container">
-  <div class="center-head"><span class="kicker">SIMPLE & CONVENIENT</span><h2>Testing made easy</h2></div>
-  <div class="steps"><div class="step"><span>01</span><div>📱</div><h3>Book Online</h3><p>Select your test, date and preferred time slot.</p></div><div class="step"><span>02</span><div>🏠</div><h3>Sample Collection</h3><p>Choose home collection or visit the centre.</p></div><div class="step"><span>03</span><div>🔬</div><h3>Lab Processing</h3><p>Your samples are processed through diagnostic testing.</p></div><div class="step"><span>04</span><div>📄</div><h3>Get Reports</h3><p>Receive your report through the available delivery channel.</p></div></div>
- </div>
-</section>
-
-<section class="cta"><div class="container cta-inner"><div><span class="kicker">HOME SAMPLE COLLECTION</span><h2>Too busy to visit the centre?</h2><p>Book a convenient home sample collection slot.</p></div><button class="btn white" onclick="openBooking()">Book Home Collection →</button></div></section>
-
-<section id="contact" class="contact section"><div class="container contact-grid"><div><span class="kicker">GET IN TOUCH</span><h2>We're here for your health.</h2><p>For bookings, test availability and home collection support, contact us directly.</p><div class="contact-item">📞 <div><small>PHONE</small><a href="tel:8178009011">8178009011</a></div></div><div class="contact-item">💬 <div><small>WHATSAPP</small><a href="https://wa.me/918178009011">Chat on WhatsApp</a></div></div><div class="contact-item">📍 <div><small>COLLECTION CENTRE</small><span>Tricity Thyrocare Collection Centre</span></div></div></div><div class="contact-panel"><div class="panel-icon">✚</div><h3>Book your health test</h3><p>Choose a date and slot that works for you.</p><button class="btn primary full" onclick="openBooking()">Start Booking →</button></div></div></section>
-</main>
-
-<footer><div class="container footer"><div class="brand"><span class="brand-mark">✚</span><span><b>TRICITY</b><small>THYROCARE COLLECTION CENTRE</small></span></div><p>© 2026 Tricity Thyrocare Collection Centre. All rights reserved.</p><a href="tel:8178009011">8178009011</a></div></footer>
-
-<div class="modal" id="bookingModal" aria-hidden="true">
- <div class="modal-box">
-  <button class="close" onclick="closeBooking()">×</button>
-  <div class="modal-head"><span class="kicker">ONLINE APPOINTMENT</span><h2>Book your test</h2><p>Fill in your details and select your preferred slot.</p></div>
-  <form id="bookingForm">
-   <div class="form-grid">
-    <label>Patient Name<input required name="name" placeholder="Full name"></label>
-    <label>Mobile Number<input required name="mobile" inputmode="numeric" pattern="[0-9]{10}" placeholder="10-digit mobile"></label>
-    <label>Test / Package<select required name="test" id="testSelect"><option value="">Select a test</option><option>Full Body Health Check</option><option>Thyroid Profile</option><option>Heart Health Profile</option><option>Diabetes Care Profile</option><option>Other Blood Test</option></select></label>
-    <label>Collection Type<select required name="type"><option>Home Collection</option><option>Visit Collection Centre</option></select></label>
-    <label>Date<input required type="date" name="date" id="date"></label>
-    <label>Preferred Slot<select required name="slot"><option value="">Select time slot</option><option>06:00 AM – 07:00 AM</option><option>07:00 AM – 08:00 AM</option><option>08:00 AM – 09:00 AM</option><option>09:00 AM – 10:00 AM</option><option>10:00 AM – 11:00 AM</option><option>11:00 AM – 12:00 PM</option></select></label>
-   </div>
-   <label>Full Address<textarea required name="address" placeholder="House / Street / Area / City / Pincode"></textarea></label>
-   <button class="btn primary full" type="submit">Confirm Booking →</button>
-   <small class="form-note">Your booking request will open WhatsApp with all entered details.</small>
-  </form>
-  <div id="success" class="success" hidden><div>✓</div><h3>Booking details ready!</h3><p>WhatsApp is opening with your appointment details.</p></div>
- </div>
-</div>
-<script src="script.js"></script>
-</body>
-</html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tricity Thyrocare Collection Centre</title><meta name="description" content="Book health packages and blood tests with Tricity Thyrocare Collection Centre.">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="top"><div class="logo"><span>✚</span><b>TRICITY THYROCARE</b><small>COLLECTION CENTRE</small></div><nav><a href="#packages">Packages</a><a href="#booking">Book Test</a><a href="#why">Why Us</a><a href="#contact">Contact</a></nav><a class="phone" href="tel:8178009011">☎ 8178009011</a></div></header>
+<section class="hero"><div class="hero-inner"><div><div class="pill">🧪 HEALTH TESTING MADE EASY</div><h1>Your Health.<br><strong>Your Tests.<br>Your Care.</strong></h1><p>Book diagnostic tests and health packages with convenient home sample collection.</p><div class="actions"><a class="btn" href="#booking">Book Your Health Checkup →</a><a class="btn light" href="https://wa.me/918178009011">WhatsApp Us</a></div><div class="badges"><span>✓ Home Collection</span><span>✓ Easy Online Booking</span><span>✓ Digital Reports</span></div></div><div class="hero-visual"><div class="blob"></div><div class="doctor">🧑‍⚕️</div><div class="float f1">🩸 <b>Blood Tests</b><small>Convenient collection</small></div><div class="float f2">❤️ <b>Health Packages</b><small>Choose what suits you</small></div></div></div></section>
+<div class="trust"><div><b>1000+</b><span>Tests & Profiles</span></div><div><b>25+</b><span>Health Packages</span></div><div><b>7 Days</b><span>Booking Support</span></div><div><b>Home</b><span>Sample Collection</span></div></div>
+<section id="packages" class="section"><div class="heading"><span>BEST TEST PACKAGES FOR YOU</span><h2>Popular Health Packages</h2><p>Choose from a variety of packages made for your everyday health needs.</p></div><div class="cards" id="cards"></div></section>
+<section id="booking" class="book"><div class="book-wrap"><div class="heading left"><span>ONLINE APPOINTMENT</span><h2>Book Your Health Checkup Now</h2><p>Choose your package, date and preferred collection slot.</p></div><form id="form"><div class="grid"><label>Test / Package<select id="test" required></select></label><label>Collection Type<select id="type"><option>Home Sample Collection</option><option>Visit Collection Centre</option></select></label><label>Patient Name<input id="name" required placeholder="Name"></label><label>Age<input id="age" type="number" min="1" max="120" required placeholder="Age"></label><label>Mobile No<input id="mobile" pattern="[0-9]{10}" required placeholder="10 Digit Indian Mobile No"></label><label>Email ID<input id="email" type="email" placeholder="Email ID"></label><label>Pin Code<input id="pin" inputmode="numeric" required placeholder="Pincode"></label><label>Select Date<input id="date" type="date" required></label><label>Preferred Slot<select id="slot" required><option value="">Select Slot</option><option>06:00 AM - 07:00 AM</option><option>07:00 AM - 08:00 AM</option><option>08:00 AM - 09:00 AM</option><option>09:00 AM - 10:00 AM</option><option>10:00 AM - 11:00 AM</option><option>11:00 AM - 12:00 PM</option></select></label><label class="wide">Full Address<textarea id="address" required placeholder="House / Street / Area / City"></textarea></label><label class="wide">Remark<textarea id="remark" placeholder="Any special request"></textarea></label></div><div class="summary"><b>Booking Summary</b><span id="summaryText">Select a package</span><strong id="total">₹0</strong></div><button class="btn submit">Confirm Booking via WhatsApp →</button><small>After confirmation, WhatsApp will open with your booking details.</small></form></div></section>
+<section id="why" class="why"><div class="heading"><span>WHY CHOOSE US?</span><h2>Simple, reliable & convenient</h2></div><div class="whygrid"><div>🏠<b>Home Sample Collection</b><p>Book a convenient collection from your doorstep.</p></div><div>📱<b>Easy Online Booking</b><p>Select package, date and time slot in seconds.</p></div><div>🔬<b>Diagnostic Testing</b><p>Tests are processed through the diagnostic network.</p></div><div>📄<b>Digital Reports</b><p>Get your reports through the available delivery channel.</p></div></div></section>
+<section class="cta"><div><span>NEED HELP?</span><h2>Book your test today.</h2><p>Call or WhatsApp Tricity Thyrocare Collection Centre.</p></div><a class="btn light" href="tel:8178009011">8178009011</a></section>
+<footer id="contact"><div class="logo"><span>✚</span><b>TRICITY THYROCARE</b><small>COLLECTION CENTRE</small></div><div><b>Contact</b><a href="tel:8178009011">8178009011</a><a href="https://wa.me/918178009011">WhatsApp</a></div><p>© 2026 Tricity Thyrocare Collection Centre</p></footer>
+<script src="script.js"></script></body></html>
