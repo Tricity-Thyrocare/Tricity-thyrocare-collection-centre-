@@ -1,0 +1,9 @@
+UPLOAD THESE 3 FILES TO YOUR WEBSITE ROOT:
+1. index.html
+2. style.css
+3. script.js
+
+IMPORTANT:
+- Keep all 3 files in the SAME folder.
+- Open index.html to preview.
+- The booking button sends booking details to WhatsApp number 8178009011.
